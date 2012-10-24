@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample_1_Drawing</title>
+    <link rel="stylesheet" href="Sample_1_Drawing.css">
+  </head>
+  <body>
+
+
+<table align="center">
+<tr>
+	<td>
+		  <canvas id="canvas1" width="800" height="600"></canvas>
+	</td>
+	<td valign="top">
+		  <button id="clear_button" class="clear_btn"><strong>Clear<br>Canvas</strong></button>
+	</td>	
+</tr>
+<tr>
+	<td>
+	<table width="100%">
+	  <td align="left">
+			<button id="triangle_button" class="shape_btn">
+			<img src="resource/triangle_icon.png">
+			</button>
+			<button id="rectangle_button" class="shape_btn">
+			<img src="resource/rectangle_icon.png">
+		  </button>
+		  <label><strong><- Select Shape</strong></label>
+		</td>
+		<td align="right">
+		  <label><strong>Select Color -></strong></label>
+		  <input type="color" id="colorpick">
+		</td>
+	</table>
+	</td>
+</tr>
+</table>
+
+    <script type="application/dart" src="web/Sample_1_Drawing.dart"></script>
+    <script src="https://dart.googlecode.com/svn/branches/bleeding_edge/dart/client/dart.js"></script>
+  </body>
+</html>
